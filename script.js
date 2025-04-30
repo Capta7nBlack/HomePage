@@ -1,4 +1,4 @@
-const NAME = "John";
+const NAME = "Capta7nBlack";
 const WELCOME_MESSAGE_TEMPLATE = ["night", "morning", "afternoon", "evening"];
 
 // All shortcuts are in a `SHORTCUT_STARTER+shortcutKey` format. 
@@ -12,32 +12,7 @@ const SHORTCUT_TIMEOUT = 1500;
 // The groups of links are generated from this object. Edit it to edit the page's contents.
 // shortcutKey must hold an all-lowercase single button. Theoretically should work with values like `esc` and `f1`,
 // but intended to be used with just regular latin letters.
-const MASTER_MAP = [
-    {
-        "groupName": "Studies",
-        "items":[
-            {"name": "Item A", "shortcutKey": "q", "url": "https://google.com/?q=q"},
-            {"name": "Item B", "shortcutKey": "w", "url": "https://google.com/?q=w"},
-            {"name": "Item C", "shortcutKey": "e", "url": "https://google.com/?q=e"}
-        ]
-    },
-    {
-        "groupName": "Work",
-        "items":[
-            {"name": "Item D", "shortcutKey": "a", "url": "https://google.com/?q=a"},
-            {"name": "Item E", "shortcutKey": "s", "url": "https://google.com/?q=s"},
-            {"name": "Item F", "shortcutKey": "d", "url": "https://google.com/?q=d"}
-        ]
-    },
-    {
-        "groupName": "Personal",
-        "items":[
-            {"name": "Item I", "shortcutKey": "z", "url": "https://google.com/?q=z"},
-            {"name": "Item J", "shortcutKey": "x", "url": "https://google.com/?q=x"},
-            {"name": "Item K", "shortcutKey": "c", "url": "https://google.com/?q=c"}
-        ]
-    }
-]
+const MASTER_MAP = []
 
 let $container = document.getElementById("content");
 let getUrl = {};
